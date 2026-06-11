@@ -1,0 +1,6 @@
+{
+  "name": "Plumb5 Landing Page",
+  "description": "Premium, high-converting enterprise SaaS landing page for Plumb5, built with Bootstrap 5, featuring real-time dashboard visualization and interactive lead analytics dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
