@@ -871,29 +871,30 @@ section {
 /* Centerpiece Dashboard Mockup */
 .platform-centerpiece {
   position: relative;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   overflow: hidden;
-  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5);
   background: #111827;
-  transition: all 0.4s ease;
-  margin: auto 0;
-  height: 300px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  margin: 1.5rem 0;
+  width: 100%;
+  height: 380px;
+  /* Tall vertical height to fit the panel */
 }
 
 .platform-centerpiece:hover {
-  border-color: rgba(20, 200, 196, 0.5);
-  box-shadow: 0 25px 55px rgba(20, 200, 196, 0.2);
+  transform: translateY(-5px) scale(1.02);
 }
 
 .platform-screenshot {
   width: 100%;
   height: calc(100% - 44px);
+  /* Fill the rest of the centerpiece below the header */
   object-fit: cover;
-  object-position: 15% 0;
+  object-position: 0% 0%;
+  /* Focus on the top-left (sidebar + main charts) */
   display: block;
-  opacity: 0.9;
-  filter: saturate(1.15) brightness(0.95);
 }
 
 /* Floating Workflow Pipeline Overlay & Connecting Lines */
