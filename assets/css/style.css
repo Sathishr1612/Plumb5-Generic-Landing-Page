@@ -3063,7 +3063,7 @@ footer {
 
 .form-placewrap{
   width: 85%;
-  background-color: #192A3C;
+  background-color: #e3e7ec;
   border-radius: 15px;
   padding: 20px;
   box-sizing: border-box;
@@ -3071,7 +3071,6 @@ footer {
 
 @media only screen and (max-width:767px){
   .form-placewrap{
-    background-color: #192A3C;
     width: 100%;
   }
 }
